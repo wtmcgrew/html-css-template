@@ -1,0 +1,103 @@
+header, .container-1, .container-2, .container-3 {
+	display: flex;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.main {
+	width: 70%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-image {
+	width: 30%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-image img {
+	width: 100%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-title {
+	width: 70%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.testimonials {
+	width: 30%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card {
+	width: 25%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.choose {
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card img {
+	width: 100%; 
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container-1, .container-2, .container-3 {
+	justify-content: center;
+}
+
+p, h2, h3, a {
+	font-family: Arial;
+	font-size: 16px;
+	padding: 5px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background-color: maroon;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3 {
+	text-align: center;
+}
+
+button {
+	background-color: black;
+	color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	header, .container-1, .container-2, .container-3, .choose, .main-image img {
+		display: block;
+		background-color: black;
+		justify-content: center;
+		margin: 0;
+	}
